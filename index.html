@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Website kecil untuk merayakan dua tahun perjalanan dan kenangan bersama."
+    />
+
+    <title>Two Years With You</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <audio id="background-music" loop>
+      <source src="music/our-song.mp3" type="audio/mpeg" />
+      Browser Anda tidak mendukung pemutar audio.
+    </audio>
+
+    <button
+      class="music-toggle"
+      id="music-toggle"
+      type="button"
+      aria-label="Putar musik"
+    >
+      ♫
+    </button>
+
+    <!-- ========================================
+         NAVIGATION
+    ========================================= -->
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#home" class="nav-logo"> Two Years </a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#story" class="nav-link">Our Story</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#memories" class="nav-link">Memories</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#letter" class="nav-link">A Letter</a>
+          </li>
+        </ul>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Buka menu navigasi"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ========================================
+             HERO SECTION
+        ========================================= -->
+      <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+          <p class="hero-subtitle">A little story about us</p>
+
+          <h1 class="hero-title">
+            Two Years<br />
+            <span>With You</span>
+          </h1>
+
+          <p class="hero-description">
+            Dua tahun, begitu banyak cerita, dan masih menjadi salah satu bagian
+            terbaik dalam perjalanan hidupku.
+          </p>
+
+          <p class="anniversary-date">06 Oktober 2024 — 06 Oktober 2026</p>
+
+          <a href="#story" class="hero-button">
+            Enter Our Story
+            <span>↓</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ========================================
+             INTRODUCTION
+        ========================================= -->
+      <section class="intro section">
+        <div class="container intro-content">
+          <p class="section-label">02 Years</p>
+
+          <h2 class="section-title">Some stories are worth remembering.</h2>
+
+          <p class="section-text">
+            Ada banyak hal yang berubah dalam dua tahun. Waktu berjalan, kita
+            tumbuh, dan banyak hal telah kita lalui bersama.
+          </p>
+
+          <p class="section-text">
+            Website kecil ini dibuat untuk menyimpan sebagian kecil dari
+            perjalanan itu.
+          </p>
+        </div>
+      </section>
+
+      <!-- ========================================
+             OUR STORY
+        ========================================= -->
+      <section class="story section" id="story">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Our Story</p>
+
+            <h2 class="section-title">How It All Started</h2>
+          </div>
+
+          <div class="story-content">
+            <div class="story-image">
+              <img
+                src="images/foto-01.jpg"
+                alt="Foto awal perjalanan kami"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="story-text">
+              <span class="story-number"> 01 </span>
+
+              <h3>The Beginning</h3>
+
+              <p>
+                Semuanya dimulai dari sebuah pertemuan yang mungkin pada awalnya
+                terlihat sederhana. Tidak pernah tahu bahwa dari sana akan lahir
+                begitu banyak cerita.
+              </p>
+
+              <p>
+                Kita mulai mengenal satu sama lain, berbagi cerita, tertawa
+                bersama, dan perlahan menjadi bagian dari kehidupan
+                masing-masing.
+              </p>
+            </div>
+          </div>
+
+          <div class="story-content story-content-reverse">
+            <div class="story-image">
+              <img
+                src="images/foto-02.jpeg"
+                alt="Foto perjalanan hubungan kami"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="story-text">
+              <span class="story-number"> 02 </span>
+
+              <h3>Growing Together</h3>
+
+              <p>
+                Dua tahun bukan waktu yang sebentar. Ada hari-hari yang mudah,
+                ada juga hari yang tidak berjalan seperti yang kita harapkan.
+              </p>
+
+              <p>
+                Namun dari semuanya itu, kita belajar bagaimana menjadi lebih
+                dewasa, saling memahami, dan tetap berjalan bersama.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             MEMORIES / GALLERY
+        ========================================= -->
+      <section class="memories section" id="memories">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Memories</p>
+
+            <h2 class="section-title">
+              Little Moments,
+              <br />
+              Big Memories.
+            </h2>
+
+            <p class="section-text">
+              Beberapa foto mungkin hanya terlihat seperti gambar biasa. Bagi
+              kita, setiap foto menyimpan cerita yang berbeda.
+            </p>
+          </div>
+
+          <div class="gallery">
+            <figure class="gallery-item gallery-item-large">
+              <img
+                src="images/foto-03.jpg"
+                alt="Kenangan bersama"
+                loading="lazy"
+              />
+            </figure>
+
+            <figure class="gallery-item">
+              <img
+                src="images/foto-04.jpg"
+                alt="Kenangan bersama"
+                loading="lazy"
+              />
+            </figure>
+
+            <figure class="gallery-item">
+              <img
+                src="images/foto-05.jpg"
+                alt="Kenangan bersama"
+                loading="lazy"
+              />
+            </figure>
+
+            <figure class="gallery-item gallery-item-wide">
+              <img
+                src="images/foto-06.jpg"
+                alt="Kenangan bersama"
+                loading="lazy"
+              />
+            </figure>
+
+            <figure class="gallery-item">
+              <img
+                src="images/foto-07.jpg"
+                alt="Kenangan bersama"
+                loading="lazy"
+              />
+            </figure>
+
+            <figure class="gallery-item">
+              <img
+                src="images/foto-08.jpeg"
+                alt="Kenangan bersama"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             TIMELINE
+        ========================================= -->
+      <section class="timeline-section section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-label">Our Journey</p>
+
+            <h2 class="section-title">
+              Two Years,
+              <br />
+              Countless Memories.
+            </h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">2024</div>
+
+              <div class="timeline-content">
+                <h3>The Beginning</h3>
+
+                <p>Hari ketika cerita kita dimulai.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-date">2025</div>
+
+              <div class="timeline-content">
+                <h3>One Year Together</h3>
+
+                <p>
+                  Satu tahun pertama penuh dengan cerita, tawa, dan banyak hal
+                  baru yang kita lewati bersama.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-date">2026</div>
+
+              <div class="timeline-content">
+                <h3>Two Years</h3>
+
+                <p>
+                  Hari ini kita sampai pada tahun kedua. Dan cerita kita masih
+                  terus berjalan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             COUNTER
+        ========================================= -->
+      <section class="counter section">
+        <div class="container counter-content">
+          <p class="section-label">Since The Beginning</p>
+
+          <h2 class="section-title">We Have Been Together For</h2>
+
+          <div class="counter-grid">
+            <div class="counter-item">
+              <span class="counter-number" id="days"> 000 </span>
+
+              <span class="counter-label"> Days </span>
+            </div>
+
+            <div class="counter-item">
+              <span class="counter-number" id="hours"> 00 </span>
+
+              <span class="counter-label"> Hours </span>
+            </div>
+
+            <div class="counter-item">
+              <span class="counter-number" id="minutes"> 00 </span>
+
+              <span class="counter-label"> Minutes </span>
+            </div>
+
+            <div class="counter-item">
+              <span class="counter-number" id="seconds"> 00 </span>
+
+              <span class="counter-label"> Seconds </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             LETTER
+        ========================================= -->
+      <section class="letter section" id="letter">
+        <div class="container">
+          <div class="letter-wrapper">
+            <div class="section-heading">
+              <p class="section-label">A Letter For You</p>
+
+              <h2 class="section-title">
+                To The Person
+                <br />
+                Who Makes Life Special.
+              </h2>
+            </div>
+
+            <div class="letter-content">
+              <p>Untuk kamu,</p>
+
+              <p>
+                Terima kasih sudah menjadi bagian dari perjalanan hidupku selama
+                dua tahun ini. Terima kasih untuk setiap tawa, cerita,
+                perhatian, dan waktu yang telah kita bagi.
+              </p>
+
+              <p>
+                Aku tahu perjalanan kita tidak selalu sempurna. Ada perbedaan,
+                kesalahpahaman, dan hari-hari yang mungkin terasa berat. Tetapi
+                justru dari semua itu kita belajar untuk saling memahami.
+              </p>
+
+              <p>
+                Dua tahun mungkin hanyalah sebuah angka. Tetapi di dalamnya ada
+                begitu banyak kenangan yang tidak bisa digantikan oleh angka apa
+                pun.
+              </p>
+
+              <p>
+                Semoga setelah dua tahun ini masih ada banyak cerita yang bisa
+                kita tulis bersama.
+              </p>
+
+              <p class="letter-closing">
+                With love,<br />
+                <span>Me</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+             FINAL PHOTO
+        ========================================= -->
+      <section class="final-photo">
+        <div class="final-photo-overlay"></div>
+
+        <div class="final-photo-content">
+          <p>And this is only</p>
+
+          <h2>The Beginning</h2>
+
+          <span> ♡ </span>
+        </div>
+      </section>
+
+      <!-- ========================================
+             CLOSING
+        ========================================= -->
+      <section class="closing section">
+        <div class="container closing-content">
+          <p class="section-label">October 2026</p>
+
+          <h2 class="closing-title">Happy 2nd Anniversary</h2>
+
+          <p class="closing-text">
+            Terima kasih telah menjadi bagian dari cerita ini.
+          </p>
+
+          <p class="closing-heart">♡</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========================================
+         FOOTER
+    ========================================= -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>Made with love.</p>
+
+        <p>© 2026 Our Story</p>
+      </div>
+    </footer>
+
+    <!-- ========================================
+         LIGHTBOX
+    ========================================= -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button
+        class="lightbox-close"
+        id="lightbox-close"
+        type="button"
+        aria-label="Tutup gambar"
+      ></button>
+
+      <img src="" alt="Preview foto" id="lightbox-image" />
+    </div>
+
+    <!-- ========================================
+         JAVASCRIPT
+    ========================================= -->
+    <script src="script.js"></script>
+  </body>
+</html>
